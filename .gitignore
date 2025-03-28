@@ -1,0 +1,8 @@
+# avoiding publishing material that isn't mine
+# wav_training contains training wavs from private sources
+# TTS contains coquiTTS Python package
+# prerequisites contains installers and isos
+
+wav_training/
+TTS/
+prerequisites/
