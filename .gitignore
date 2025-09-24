@@ -3,6 +3,7 @@
 # TTS contains coquiTTS Python package
 # prerequisites contains installers and isos
 
-wav_training/
+wav/training/
 TTS/
 prerequisites/
+models/stt_model

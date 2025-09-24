@@ -22,5 +22,5 @@ model = input("Enter model:\n")
 # Example voice cloning with selected model
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 tts = TTS((model), progress_bar=True).to(device)
-tts.tts_to_file("This is a voice cloning test - this robot stole my voice!", speaker_wav="C:\\Users\\monol\\wkdir\\llm_tts\\train-audio.wav",
-                language="en", file_path="C:\\Users\\monol\\wkdir\\llm_tts\\output.wav")
+tts.tts_to_file("This is a voice cloning test - this freaking robot stole my voice!", speaker_wav="C:\\Users\\monol\\wkdir\\code\\llm_tts\\wav\\input\\test\\train-audio.wav",
+                language="en", file_path="C:\\Users\\monol\\wkdir\\code\\llm_tts\\wav\\output\\to_output.wav")
