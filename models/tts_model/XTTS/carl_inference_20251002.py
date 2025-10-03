@@ -5,9 +5,9 @@ from TTS.tts.configs.xtts_config import XttsConfig
 from TTS.tts.models.xtts import Xtts
 
 # input fs
-CONFIG_PATH = "run/training/GPT_XTTS_Carl_20251002-October-02-2025_06+25PM-583b49b/config.json"
-TOKENIZER_PATH = "run/training/XTTS_v1.1_original_model_files/vocab.json"
-XTTS_CHECKPOINT = "run/training/GPT_XTTS_Carl_20251002-October-02-2025_06+25PM-583b49b/best_model.pth"
+CONFIG_PATH = "run/training/GPT_XTTS_Carl_20251002-October-03-2025_11+12AM-37eb147/config.json"
+TOKENIZER_PATH = "run/training/XTTS_v2_original_model_files/vocab.json"
+XTTS_CHECKPOINT = "run/training/GPT_XTTS_Carl_20251002-October-03-2025_11+12AM-37eb147/best_model.pth"
 SPEAKER_REFERENCE = "C:/Users/monol/wkdir/code/llm_tts/wav/input/Carl_Voice_Dataset/wavs/carl_0001.wav"
 
 # output wav path

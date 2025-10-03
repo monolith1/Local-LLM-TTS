@@ -11,7 +11,8 @@ models/stt_model/
 .git
 .ipynb_checkpoints
 .virtual_documents
-models/tts_model/XTTS/run/training/XTTS_v1.1_original_model_files/
-models/tts_model/XTTS/run/training/GPT_XTTS_Carl_20251002-October-02-2025_06+25PM-583b49b/
-models/tts_model/XTTS/run/training/GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b/best_model_304.pth
+models/tts_model/XTTS/run/training/XTTS_v2_original_model_files/
 models/tts_model/XTTS/run/training/GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b/best_model.pth
+models/tts_model/XTTS/run/training/GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b/best_model_304.pth
+models/tts_model/XTTS/run/training/GPT_XTTS_Carl_20251002-October-03-2025_11+12AM-37eb147/best_model.pth
+models/tts_model/XTTS/run/training/GPT_XTTS_Carl_20251002-October-03-2025_11+12AM-37eb147/best_model_544.pth

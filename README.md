@@ -5,6 +5,6 @@
  :alien:
  
  * See current modelfile @ models/llm_model/carl_20251002.mf
- * See current training data and trained TTS model @ models/tts_model/run/training/GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b
+ * See current training metadata (TensorBoard) and sample voice output @ models/tts_model/XTTS/run/training/GPT_XTTS_Carl_20251002-October-03-2025_11+12AM-37eb147/
  
- ![TensorBoard Screenshot from most recent TTS model train](/models/tts_model/XTTS/run/training/GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b/run_tb.png)
+ ![TensorBoard Screenshot from most recent TTS model train](/models/tts_model/XTTS/run/training/GPT_XTTS_Carl_20251002-October-03-2025_11+12AM-37eb147/run_tb.png)
