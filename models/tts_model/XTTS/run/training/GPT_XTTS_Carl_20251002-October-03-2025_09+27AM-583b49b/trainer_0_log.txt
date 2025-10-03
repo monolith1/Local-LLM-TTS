@@ -1,0 +1,396 @@
+ > Training Environment:
+ | > Backend: Torch
+ | > Mixed precision: False
+ | > Precision: float32
+ | > Current device: 0
+ | > Num. of GPUs: 1
+ | > Num. of CPUs: 16
+ | > Num. of Torch Threads: 1
+ | > Torch seed: 1
+ | > Torch CUDNN: True
+ | > Torch CUDNN deterministic: False
+ | > Torch CUDNN benchmark: False
+ | > Torch TF32 MatMul: False
+ > Start Tensorboard: tensorboard --logdir=C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b
+
+ > Model has 518128803 parameters
+
+[4m[1m > EPOCH: 0/20[0m
+ --> C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time: 0.10650086402893066 [0m(+0)
+     | > avg_loss_text_ce: 0.02649090066552162 [0m(+0)
+     | > avg_loss_mel_ce: 4.073541164398193 [0m(+0)
+     | > avg_loss: 4.100031852722168 [0m(+0)
+
+
+[4m[1m > EPOCH: 1/20[0m
+ --> C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b
+
+[1m > TRAINING (2025-10-03 09:27:17) [0m
+
+[1m   --> TIME: 2025-10-03 09:28:20 -- STEP: 0/16 -- GLOBAL_STEP: 0[0m
+     | > loss_text_ce: 0.02099417895078659  (0.02099417895078659)
+     | > loss_mel_ce: 5.301435947418213  (5.301435947418213)
+     | > loss: 0.04224151000380516  (0.04224151000380516)
+     | > current_lr: 5e-06 
+     | > step_time: 0.4946  (0.4946422576904297)
+     | > loader_time: 63.2507  (63.25066781044006)
+
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[92m 0.015998125076293945 [0m(-0.09050273895263672)
+     | > avg_loss_text_ce:[92m 0.02647620625793934 [0m(-1.469440758228302e-05)
+     | > avg_loss_mel_ce:[92m 3.9192068576812744 [0m(-0.15433430671691895)
+     | > avg_loss:[92m 3.945683002471924 [0m(-0.15434885025024414)
+
+ > BEST MODEL : C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b\best_model_16.pth
+
+[4m[1m > EPOCH: 2/20[0m
+ --> C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b
+
+[1m > TRAINING (2025-10-03 09:29:08) [0m
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[91m 0.016500234603881836 [0m(+0.0005021095275878906)
+     | > avg_loss_text_ce:[92m 0.026463733986020088 [0m(-1.2472271919250488e-05)
+     | > avg_loss_mel_ce:[92m 3.862582206726074 [0m(-0.056624650955200195)
+     | > avg_loss:[92m 3.8890459537506104 [0m(-0.05663704872131348)
+
+ > BEST MODEL : C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b\best_model_32.pth
+
+[4m[1m > EPOCH: 3/20[0m
+ --> C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b
+
+[1m > TRAINING (2025-10-03 09:33:06) [0m
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[91m 0.017501115798950195 [0m(+0.0010008811950683594)
+     | > avg_loss_text_ce:[92m 0.02645084075629711 [0m(-1.2893229722976685e-05)
+     | > avg_loss_mel_ce:[92m 3.826409339904785 [0m(-0.03617286682128906)
+     | > avg_loss:[92m 3.85286021232605 [0m(-0.03618574142456055)
+
+ > BEST MODEL : C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b\best_model_48.pth
+
+[4m[1m > EPOCH: 4/20[0m
+ --> C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b
+
+[1m > TRAINING (2025-10-03 09:35:25) [0m
+
+[1m   --> TIME: 2025-10-03 09:36:35 -- STEP: 2/16 -- GLOBAL_STEP: 50[0m
+     | > loss_text_ce: 0.025320999324321747  (0.02524576522409916)
+     | > loss_mel_ce: 4.5545172691345215  (4.393997430801392)
+     | > loss: 0.036347925662994385  (0.03507336042821407)
+     | > current_lr: 5e-06 
+     | > step_time: 3.9771  (3.09782874584198)
+     | > loader_time: 0.0085  (0.008749127388000488)
+
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[92m 0.017003297805786133 [0m(-0.0004978179931640625)
+     | > avg_loss_text_ce:[92m 0.02644115686416626 [0m(-9.683892130851746e-06)
+     | > avg_loss_mel_ce:[92m 3.808610677719116 [0m(-0.017798662185668945)
+     | > avg_loss:[92m 3.8350517749786377 [0m(-0.01780843734741211)
+
+ > BEST MODEL : C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b\best_model_64.pth
+
+[4m[1m > EPOCH: 5/20[0m
+ --> C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b
+
+[1m > TRAINING (2025-10-03 09:37:41) [0m
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[92m 0.015498876571655273 [0m(-0.0015044212341308594)
+     | > avg_loss_text_ce:[92m 0.026434773579239845 [0m(-6.38328492641449e-06)
+     | > avg_loss_mel_ce:[92m 3.7975733280181885 [0m(-0.011037349700927734)
+     | > avg_loss:[92m 3.824007987976074 [0m(-0.011043787002563477)
+
+ > BEST MODEL : C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b\best_model_80.pth
+
+[4m[1m > EPOCH: 6/20[0m
+ --> C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b
+
+[1m > TRAINING (2025-10-03 09:39:44) [0m
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[92m 0.015000104904174805 [0m(-0.0004987716674804688)
+     | > avg_loss_text_ce:[92m 0.02642659656703472 [0m(-8.177012205123901e-06)
+     | > avg_loss_mel_ce:[92m 3.78874135017395 [0m(-0.008831977844238281)
+     | > avg_loss:[92m 3.8151679039001465 [0m(-0.008840084075927734)
+
+ > BEST MODEL : C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b\best_model_96.pth
+
+[4m[1m > EPOCH: 7/20[0m
+ --> C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b
+
+[1m > TRAINING (2025-10-03 09:41:50) [0m
+
+[1m   --> TIME: 2025-10-03 09:43:05 -- STEP: 4/16 -- GLOBAL_STEP: 100[0m
+     | > loss_text_ce: 0.024748483672738075  (0.02473145630210638)
+     | > loss_mel_ce: 4.26485013961792  (3.6119214296340942)
+     | > loss: 0.03404443338513374  (0.028862325940281153)
+     | > current_lr: 5e-06 
+     | > step_time: 1.1335  (1.2453864216804504)
+     | > loader_time: 0.0045  (0.005377411842346191)
+
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[91m 0.016001462936401367 [0m(+0.0010013580322265625)
+     | > avg_loss_text_ce:[92m 0.026418348774313927 [0m(-8.247792720794678e-06)
+     | > avg_loss_mel_ce:[92m 3.780895471572876 [0m(-0.007845878601074219)
+     | > avg_loss:[92m 3.807313919067383 [0m(-0.007853984832763672)
+
+ > BEST MODEL : C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b\best_model_112.pth
+
+[4m[1m > EPOCH: 8/20[0m
+ --> C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b
+
+[1m > TRAINING (2025-10-03 09:43:55) [0m
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[92m 0.015496253967285156 [0m(-0.0005052089691162109)
+     | > avg_loss_text_ce:[92m 0.026408979669213295 [0m(-9.369105100631714e-06)
+     | > avg_loss_mel_ce:[92m 3.7739362716674805 [0m(-0.006959199905395508)
+     | > avg_loss:[92m 3.8003451824188232 [0m(-0.00696873664855957)
+
+ > BEST MODEL : C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b\best_model_128.pth
+
+[4m[1m > EPOCH: 9/20[0m
+ --> C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b
+
+[1m > TRAINING (2025-10-03 09:46:08) [0m
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[91m 0.017000913619995117 [0m(+0.001504659652709961)
+     | > avg_loss_text_ce:[92m 0.026398589834570885 [0m(-1.0389834642410278e-05)
+     | > avg_loss_mel_ce:[92m 3.7678558826446533 [0m(-0.0060803890228271484)
+     | > avg_loss:[92m 3.7942545413970947 [0m(-0.006090641021728516)
+
+ > BEST MODEL : C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b\best_model_144.pth
+
+[4m[1m > EPOCH: 10/20[0m
+ --> C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b
+
+[1m > TRAINING (2025-10-03 09:48:22) [0m
+
+[1m   --> TIME: 2025-10-03 09:49:45 -- STEP: 6/16 -- GLOBAL_STEP: 150[0m
+     | > loss_text_ce: 0.0247632022947073  (0.02548672289897998)
+     | > loss_mel_ce: 5.182825088500977  (4.282078782717387)
+     | > loss: 0.041330065578222275  (0.03418702880541483)
+     | > current_lr: 5e-06 
+     | > step_time: 1.1225  (1.4432772795359294)
+     | > loader_time: 0.0045  (0.005666216214497884)
+
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[91m 0.017501115798950195 [0m(+0.0005002021789550781)
+     | > avg_loss_text_ce:[92m 0.02638753317296505 [0m(-1.1056661605834961e-05)
+     | > avg_loss_mel_ce:[92m 3.763089895248413 [0m(-0.004765987396240234)
+     | > avg_loss:[92m 3.7894773483276367 [0m(-0.004777193069458008)
+
+ > BEST MODEL : C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b\best_model_160.pth
+
+[4m[1m > EPOCH: 11/20[0m
+ --> C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b
+
+[1m > TRAINING (2025-10-03 09:50:31) [0m
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[92m 0.015499591827392578 [0m(-0.002001523971557617)
+     | > avg_loss_text_ce:[92m 0.026377035304903984 [0m(-1.0497868061065674e-05)
+     | > avg_loss_mel_ce:[92m 3.7584726810455322 [0m(-0.004617214202880859)
+     | > avg_loss:[92m 3.7848496437072754 [0m(-0.004627704620361328)
+
+ > BEST MODEL : C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b\best_model_176.pth
+
+[4m[1m > EPOCH: 12/20[0m
+ --> C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b
+
+[1m > TRAINING (2025-10-03 09:52:41) [0m
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[91m 0.016001224517822266 [0m(+0.0005016326904296875)
+     | > avg_loss_text_ce:[92m 0.026364484801888466 [0m(-1.2550503015518188e-05)
+     | > avg_loss_mel_ce:[92m 3.7542009353637695 [0m(-0.004271745681762695)
+     | > avg_loss:[92m 3.7805655002593994 [0m(-0.0042841434478759766)
+
+ > BEST MODEL : C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b\best_model_192.pth
+
+[4m[1m > EPOCH: 13/20[0m
+ --> C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b
+
+[1m > TRAINING (2025-10-03 09:54:56) [0m
+
+[1m   --> TIME: 2025-10-03 09:56:25 -- STEP: 8/16 -- GLOBAL_STEP: 200[0m
+     | > loss_text_ce: 0.02606704831123352  (0.025806204415857792)
+     | > loss_mel_ce: 3.228480339050293  (3.9260199368000035)
+     | > loss: 0.02582974173128605  (0.031363701447844505)
+     | > current_lr: 5e-06 
+     | > step_time: 1.2725  (1.1944639086723328)
+     | > loader_time: 0.0055  (0.005311936140060425)
+
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[91m 0.020502090454101562 [0m(+0.004500865936279297)
+     | > avg_loss_text_ce:[92m 0.026351746171712875 [0m(-1.2738630175590515e-05)
+     | > avg_loss_mel_ce:[92m 3.7503135204315186 [0m(-0.0038874149322509766)
+     | > avg_loss:[92m 3.776665210723877 [0m(-0.003900289535522461)
+
+ > BEST MODEL : C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b\best_model_208.pth
+
+[4m[1m > EPOCH: 14/20[0m
+ --> C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b
+
+[1m > TRAINING (2025-10-03 09:57:07) [0m
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[91m 0.020998716354370117 [0m(+0.0004966259002685547)
+     | > avg_loss_text_ce:[92m 0.026338709518313408 [0m(-1.3036653399467468e-05)
+     | > avg_loss_mel_ce:[92m 3.7470128536224365 [0m(-0.0033006668090820312)
+     | > avg_loss:[92m 3.7733516693115234 [0m(-0.0033135414123535156)
+
+ > BEST MODEL : C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b\best_model_224.pth
+
+[4m[1m > EPOCH: 15/20[0m
+ --> C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b
+
+[1m > TRAINING (2025-10-03 09:59:27) [0m
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[92m 0.01999974250793457 [0m(-0.0009989738464355469)
+     | > avg_loss_text_ce:[92m 0.026325566694140434 [0m(-1.3142824172973633e-05)
+     | > avg_loss_mel_ce:[92m 3.743453025817871 [0m(-0.0035598278045654297)
+     | > avg_loss:[92m 3.7697784900665283 [0m(-0.003573179244995117)
+
+ > BEST MODEL : C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b\best_model_240.pth
+
+[4m[1m > EPOCH: 16/20[0m
+ --> C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b
+
+[1m > TRAINING (2025-10-03 10:01:37) [0m
+
+[1m   --> TIME: 2025-10-03 10:03:11 -- STEP: 10/16 -- GLOBAL_STEP: 250[0m
+     | > loss_text_ce: 0.022945698350667953  (0.024943478405475616)
+     | > loss_mel_ce: 4.386996269226074  (3.905873346328735)
+     | > loss: 0.0349995419383049  (0.03119696117937565)
+     | > current_lr: 5e-06 
+     | > step_time: 3.0994  (2.8619817018508913)
+     | > loader_time: 0.005  (0.007397770881652832)
+
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[92m 0.01900029182434082 [0m(-0.00099945068359375)
+     | > avg_loss_text_ce:[92m 0.026313534006476402 [0m(-1.2032687664031982e-05)
+     | > avg_loss_mel_ce:[92m 3.7396955490112305 [0m(-0.003757476806640625)
+     | > avg_loss:[92m 3.7660090923309326 [0m(-0.003769397735595703)
+
+ > BEST MODEL : C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b\best_model_256.pth
+
+[4m[1m > EPOCH: 17/20[0m
+ --> C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b
+
+[1m > TRAINING (2025-10-03 10:04:01) [0m
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[92m 0.016000032424926758 [0m(-0.0030002593994140625)
+     | > avg_loss_text_ce:[92m 0.026300951838493347 [0m(-1.2582167983055115e-05)
+     | > avg_loss_mel_ce:[92m 3.7354066371917725 [0m(-0.004288911819458008)
+     | > avg_loss:[92m 3.7617075443267822 [0m(-0.004301548004150391)
+
+ > BEST MODEL : C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b\best_model_272.pth
+
+[4m[1m > EPOCH: 18/20[0m
+ --> C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b
+
+[1m > TRAINING (2025-10-03 10:06:14) [0m
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[92m 0.014505863189697266 [0m(-0.0014941692352294922)
+     | > avg_loss_text_ce:[92m 0.026289837434887886 [0m(-1.111440360546112e-05)
+     | > avg_loss_mel_ce:[92m 3.7292134761810303 [0m(-0.0061931610107421875)
+     | > avg_loss:[92m 3.7555034160614014 [0m(-0.006204128265380859)
+
+ > BEST MODEL : C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b\best_model_288.pth
+
+[4m[1m > EPOCH: 19/20[0m
+ --> C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b
+
+[1m > TRAINING (2025-10-03 10:08:29) [0m
+
+[1m   --> TIME: 2025-10-03 10:10:10 -- STEP: 12/16 -- GLOBAL_STEP: 300[0m
+     | > loss_text_ce: 0.027523666620254517  (0.024858892895281315)
+     | > loss_mel_ce: 2.938608407974243  (3.8803797364234924)
+     | > loss: 0.023540733382105827  (0.03099395924558242)
+     | > current_lr: 5e-06 
+     | > step_time: 2.4166  (1.2033918897310893)
+     | > loader_time: 0.0055  (0.007333497206370036)
+
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[91m 0.015500545501708984 [0m(+0.0009946823120117188)
+     | > avg_loss_text_ce:[92m 0.02627800591289997 [0m(-1.1831521987915039e-05)
+     | > avg_loss_mel_ce:[92m 3.7215726375579834 [0m(-0.007640838623046875)
+     | > avg_loss:[92m 3.7478506565093994 [0m(-0.007652759552001953)
+
+ > BEST MODEL : C:\Users\monol\wkdir\code\llm_tts\models\tts_model\run\training\GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b\best_model_304.pth

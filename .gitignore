@@ -2,8 +2,16 @@
 # wav_training contains training wavs from private sources
 # TTS contains coquiTTS Python package
 # prerequisites contains installers and isos
+# only include most recent run, avoid model pth files due to filesize
 
-wav/training/
+wav/input/
 TTS/
 prerequisites/
-models/stt_model
+models/stt_model/
+.git
+.ipynb_checkpoints
+.virtual_documents
+models/tts_model/XTTS/run/training/XTTS_v1.1_original_model_files/
+models/tts_model/XTTS/run/training/GPT_XTTS_Carl_20251002-October-02-2025_06+25PM-583b49b/
+models/tts_model/XTTS/run/training/GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b/best_model_304.pth
+models/tts_model/XTTS/run/training/GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b/best_model.pth
