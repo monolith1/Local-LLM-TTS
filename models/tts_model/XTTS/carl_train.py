@@ -8,7 +8,7 @@ from TTS.tts.layers.xtts.trainer.gpt_trainer import GPTArgs, GPTTrainer, GPTTrai
 from TTS.utils.manage import ModelManager
 
 # logging parameters
-RUN_NAME = "GPT_XTTS_Carl_20251002"
+RUN_NAME = "GPT_XTTS_Carl_20251016_2"
 PROJECT_NAME = "Carl"
 DASHBOARD_LOGGER = "tensorboard"
 LOGGER_URI = None
@@ -72,7 +72,7 @@ if not os.path.isfile(TOKENIZER_FILE) or not os.path.isfile(XTTS_CHECKPOINT):
 
 # Training sentences generations
 SPEAKER_REFERENCE = [
-    "C:/Users/monol/wkdir/code/llm_tts/wav/input/Carl_Voice_Dataset/wavs/carl_0001.wav"  # speaker reference to be used in training test sentences
+    "C:/Users/monol/wkdir/code/llm_tts/wav/input/Carl_Voice_Dataset/wavs/carl_0080.wav"  # speaker reference to be used in training test sentences
 ]
 LANGUAGE = config_dataset.language
 
@@ -113,15 +113,15 @@ def main():
         batch_size=BATCH_SIZE,
         batch_group_size=48,
         eval_batch_size=BATCH_SIZE,
-        num_loader_workers=8,
+        num_loader_workers=6,
         eval_split_max_size=256,
         print_step=50,
         plot_step=100,
-        log_model_step=1000,
-        save_step=10000,
+        log_model_step=500,
+        save_step=1000,
         save_n_checkpoints=1,
         save_checkpoints=True,
-        eval_split_size=4, # ********???
+        eval_split_size=14, # ********???
         # target_loss="loss",
         print_eval=False,
         # Optimizer values like tortoise, pytorch implementation with modifications to not apply WD to non-weight parameters.
@@ -134,12 +134,12 @@ def main():
         lr_scheduler_params={"milestones": [50000 * 18, 150000 * 18, 300000 * 18], "gamma": 0.5, "last_epoch": -1},
         test_sentences=[
             {
-                "text": "Check it out, I can speak",
+                "text": "I work from the home.",
                 "speaker_wav": SPEAKER_REFERENCE,
                 "language": LANGUAGE,
             },
             {
-                "text": "That all you came to say? Are we uhh, we done here?",
+                "text": "That all you came to say? Are we done here?",
                 "speaker_wav": SPEAKER_REFERENCE,
                 "language": LANGUAGE,
             },

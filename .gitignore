@@ -5,14 +5,22 @@
 # only include most recent run, avoid model pth files due to filesize
 
 wav/input/
+wav/output/test_XTTSv2_20251002/
 TTS/
 prerequisites/
 models/stt_model/
 .git
 .ipynb_checkpoints
 .virtual_documents
+models/tts_model/XTTS/.ipynb_checkpoints/
 models/tts_model/XTTS/run/training/XTTS_v2_original_model_files/
-models/tts_model/XTTS/run/training/GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b/best_model.pth
-models/tts_model/XTTS/run/training/GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b/best_model_304.pth
+models/tts_model/XTTS/run/training/GPT_XTTS_Carl_20251002-October-03-2025_09+27AM-583b49b/
 models/tts_model/XTTS/run/training/GPT_XTTS_Carl_20251002-October-03-2025_11+12AM-37eb147/best_model.pth
 models/tts_model/XTTS/run/training/GPT_XTTS_Carl_20251002-October-03-2025_11+12AM-37eb147/best_model_544.pth
+models/tts_model/XTTS/run/training/GPT_XTTS_Carl_20251002-October-16-2025_06+52PM-96e7a6a/
+models/tts_model/XTTS/run/training/GPT_XTTS_Carl_20251016_2-October-16-2025_10+29PM-96e7a6a/
+models/tts_model/XTTS/run/training/GPT_XTTS_Carl_20251016_2-October-17-2025_11+28AM-96e7a6a/best_model.pth
+models/tts_model/XTTS/run/training/GPT_XTTS_Carl_20251016_2-October-17-2025_11+28AM-96e7a6a/best_model_1258.pth
+models/tts_model/XTTS/run/training/GPT_XTTS_Carl_20251016_2-October-17-2025_11+28AM-96e7a6a/best_model_1292.pth
+models/tts_model/XTTS/run/training/GPT_XTTS_Carl_20251016_2-October-17-2025_11+28AM-96e7a6a/checkpoint_1000.pth
+models/tts_model/XTTS/run/training/
